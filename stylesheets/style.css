@@ -1,0 +1,86 @@
+#header-bar {
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(to right, #47C9A2 30%, #2196F3 100%) 100% no-repeat;
+  height: 5px;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+#profile {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#profile-pic {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#projects-box {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: strech;
+  justify-content: center;
+}
+
+#projects-title {
+  margin-top: 20px;
+}
+
+.title {
+  color: black !important;
+}
+
+.project {
+  margin: 10px;
+  max-width: 320px;
+  cursor: pointer;
+}
+
+.text, h1 {
+  font-family: "Roboto", "Calibri", "Helvetica", "Consolas";
+  font-size: 18px;
+  margin: 4px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+h1 {
+  font-size: 30px;
+  margin: 2;
+  text-align: center;
+}
+
+a {
+  color: #47C9A2 !important;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.tag, .tag2 {
+  display: inline-block;
+  width: 85px;
+  height: 25px;
+  line-height: 25px;
+  max-width: 85px;
+  background: #e33936;
+  color: #ffffff;
+  border-radius: 8px;
+  border-bottom: 5px solid #d43533;
+  font-size: 14px;
+  margin: 5px;
+  padding: 2px;
+}
+
+.tag2 {
+  background: #1BABA5;
+  border-bottom: 5px solid #189993;
+}
