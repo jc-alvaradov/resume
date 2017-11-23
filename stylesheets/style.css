@@ -2,7 +2,7 @@
   position: absolute;
   width: 100%;
   background: linear-gradient(to right, #47C9A2 30%, #2196F3 100%) 100% no-repeat;
-  height: 5px;
+  height: 15px;
   margin: 0;
   padding: 0;
   left: 0;
@@ -12,29 +12,17 @@
 
 #profile {
   text-align: center;
-  padding-top: 50px;
-}
-
-#profile-pic {
-  width: 150px;
-  height: auto;
-  border-radius: 50%;
+  padding-top: 20px;
 }
 
 #projects-box {
   display: flex;
+  margin-top: 10px;
   flex-wrap: wrap;
   text-align: center;
   align-items: strech;
   justify-content: center;
-}
-
-#projects-title {
-  margin-top: 20px;
-}
-
-.title {
-  color: black !important;
+  background-color: #2196F3;
 }
 
 .project {
@@ -44,8 +32,8 @@
 }
 
 .text, h1 {
-  font-family: "Roboto", "Calibri", "Helvetica", "Consolas";
-  font-size: 18px;
+  font-family: "Consolas", "Calibri";
+  font-size: 14px;
   margin: 4px;
   color: rgba(0, 0, 0, 0.65);
 }
@@ -65,3 +53,6 @@ a:visited {
   text-decoration: none;
 }
 
+.photo {
+    border: 8px solid #47C9A2;
+}
