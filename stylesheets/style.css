@@ -65,22 +65,3 @@ a:visited {
   text-decoration: none;
 }
 
-.tag, .tag2 {
-  display: inline-block;
-  width: 85px;
-  height: 25px;
-  line-height: 25px;
-  max-width: 85px;
-  background: #e33936;
-  color: #ffffff;
-  border-radius: 8px;
-  border-bottom: 5px solid #d43533;
-  font-size: 14px;
-  margin: 5px;
-  padding: 2px;
-}
-
-.tag2 {
-  background: #1BABA5;
-  border-bottom: 5px solid #189993;
-}
