@@ -35,6 +35,11 @@
   justify-content: center;
 }
 
+#projects-title{
+  margin: 0 auto;
+  max-width: 700px;
+}
+
 .project {
   margin: 10px;
   max-width: 320px;
