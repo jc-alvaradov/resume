@@ -40,9 +40,24 @@
   max-width: 700px;
 }
 
+.project-title {
+  background-color: #38b18d;
+  width: 105%;
+  height: 25px;
+  position: absolute;
+  color: white;
+  font-family: "Consolas", "Calibri";
+  font-size: 16px;
+  margin-top:150px;
+  line-height: 30px;
+  z-index: 10;
+}
+
 .project {
+  position: relative;
   margin: 10px;
   max-width: 320px;
+  max-height: 160px;
   cursor: pointer;
 }
 
